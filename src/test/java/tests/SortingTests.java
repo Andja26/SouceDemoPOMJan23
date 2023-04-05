@@ -19,6 +19,7 @@ public class SortingTests extends BaseTest {
             inventoryPage.sortItemsByText(Strings.SORT_BY_PRICE_ASC);
 
             //verifikovati, dohvati mi prvi item
+            //probaj da sortiras jos
 
 
 

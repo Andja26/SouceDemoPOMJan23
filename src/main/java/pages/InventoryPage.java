@@ -33,7 +33,7 @@ public class InventoryPage extends BasePage {
         print("clickAddToCartBikeLight");
         addToCartBikeLight.click();
     }
-
+ //get text
     public String getNumberFromShoppingCartIcon() {
         print("getNumberFromShoppingCartIcon");
         return shoppingCartBadge.getText();
