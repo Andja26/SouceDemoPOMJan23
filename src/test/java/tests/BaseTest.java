@@ -45,6 +45,16 @@ public class BaseTest {
     //za stamopanje
     public static void print(String s) {System.out.println(s);}
 
+    // staviti u base page i u base test SLEEP
+    public void sleep(int seconds) {
+        try {
+            Thread.sleep(seconds*1000);
+        } catch (Exception e) {
+            print(e.getMessage());
+
+        }
+    }
+
 
 
 }

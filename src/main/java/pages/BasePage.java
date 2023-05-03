@@ -65,7 +65,7 @@ public class BasePage {
         return isPresent;
     }
 
-
+//verify url
     public boolean verifyURL(String expectedUrl) {
         print("verifyURL ( " + expectedUrl + ")");
         String currentUrl = driver.getCurrentUrl();

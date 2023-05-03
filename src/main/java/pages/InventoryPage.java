@@ -27,7 +27,7 @@ public class InventoryPage extends BasePage {
        assert verifyURL(Strings.INVENTORY_PAGE_URL) : "Wrong URL";
     }
 
-    //metode
+    //click add to cart bike light method
 
     public void clickAddToCartBikeLight () {
         print("clickAddToCartBikeLight");
